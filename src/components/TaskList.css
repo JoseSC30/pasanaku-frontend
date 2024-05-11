@@ -1,0 +1,248 @@
+.task-list {
+    background-color: lightgray;
+    padding: 1px;
+    margin-left: 252px;
+}
+
+.sidebar {
+    background-color: rgb(75, 73, 73);
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.pasanaku-title {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    text-size-adjust: 20px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.icon {
+    margin-right: 30px;
+}
+
+.header {
+    background-color: rgb(23, 95, 23);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info p {
+    margin: 0;
+    color: white;
+}
+/* Tarjeta de Tareas */
+.tasks {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+
+}
+/* ------------------ */
+.task {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.task-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-tasks {
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaciado entre los elementos del formulario */
+    width: 400px; /* Ancho del formulario */
+    /* margin: auto; Centrar el formulario */
+    padding: 20px; /* Añadir un poco de relleno alrededor del formulario */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.submit-button:hover {
+    background-color: white; 
+    color: black;
+}
+.form-group input {
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    border-radius: 5px; /* Ajusta el radio del borde para obtener bordes más o menos redondeados */
+    border: 1px solid #ccc; /* Añade un borde */
+    padding: 0 10px; /* Añade un poco de relleno a los lados para que el texto no esté pegado al borde */
+}
+/* boton agregar */
+/* INVITADOS en la CREACION de un JUEGO */
+.right-side {
+    position: absolute;
+    right: 0;
+    top: 80%;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+.right-side-invitados {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+/* ------------------------------------ */
+.add-button {
+    padding: 10px;
+    background-color: rgb(15, 171, 15); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.add-button:hover {
+    background-color: white; 
+    color: black;
+}
+
+.invitees {
+    background-color: rgb(77, 70, 70);
+    color: white;
+    padding: 120px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 100px; /* Ajusta la altura mínima según tus necesidades */
+}
+.modal {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.confirm-button, .cancel-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm-button {
+    background-color: green;
+    color: white;
+}
+
+.cancel-button {
+    background-color: red;
+    color: white;
+}
+
+.cancel-button {
+    padding: 10px;
+    background-color: red; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.cancel-button:hover {
+    background-color: white; 
+    color: black;
+}
+
+.crear-juego-button {
+    padding: 10px;
+    background-color: rgb(15, 171, 15); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.crear-juego-button:hover {
+    background-color: white; 
+    color: black;
+}
